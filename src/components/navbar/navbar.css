@@ -1,0 +1,145 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 3rem;
+  margin: 0rem 3rem;
+  margin-bottom: 10rem;
+
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.navbar_logo {
+  color: var(--color-text);
+  cursor: default;
+}
+
+.navbar_section-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar_section-links a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0rem .75rem;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.navbar_section-links a:hover {
+  color: var(--color-gray);
+}
+
+/* -----Small Devices styling----- */
+
+.navbar-sm {
+  margin-left: 1rem;
+
+  display: none;
+  position: static;
+  z-index: 5;
+}
+
+.navbar-sm svg {
+  color: var(--color-text);
+  cursor: pointer;
+  transition: .5s
+}
+
+.navbar-sm svg:hover {
+  color: var(--color-gray);
+}
+
+.navbar-sm-hover {  
+  background-color: #1f1f1f; 
+  opacity: 90%;
+  display: flex;  
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;  
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+  min-width: 140px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px 1px #1c1c1c33;
+  padding: 1rem 2rem;
+}
+
+.navbar-section-links-sm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;;
+  gap: 2rem;
+  margin: 2rem 0rem;
+}
+
+.navbar-section-links-sm a {
+  color: var(--color-bg);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.navbar-section-links-sm a:hover {
+  color: var(--color-hover);
+}
+
+.navbar-section-links-sm button {
+  background: var(--color-bg);
+  color: var(--color-hover);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+
+  padding: .75rem 1rem;
+  transition: .5s;
+}
+
+.navbar-section-links-sm button:hover {
+    background: var(--color-heading);
+    color: var(--color-bg);
+}
+
+.navbar-section-links-sm button a {
+  color: var(--color-hover);
+}
+
+/* -----Responsive Design----- */
+
+@media screen and (max-width: 850px){
+  .navbar {
+    justify-content: space-between;
+    margin: 0rem 2rem;
+    margin-bottom: 5rem;
+  }
+  .navbar_section-links {
+    display: none;
+  }
+  .navbar-sm {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .navbar {
+    padding: 1rem .5rem;
+  }
+  .navbar-sm-logo {
+    padding: 1rem .5rem;
+  }
+  .navbar-section-links-sm a {
+    font-size: 15px;
+  }
+}

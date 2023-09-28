@@ -1,0 +1,129 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rem;
+  padding: 0rem 3rem;
+  gap: 5rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  gap: 5rem;
+  padding: 0rem 10rem;
+}
+
+.projects-img {
+  height: 100%;
+  width: 40%;
+  border-radius: 1rem;
+}
+
+.projects-container-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+
+.projects-container-data-title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  cursor: default;
+}
+
+.projects-container-data-description {
+  color: var(--color-gray);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.svg-container {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.svg {
+  color: var(--color-text);
+  font-size: 30px;
+  transition: .5s;
+}
+
+.svg:hover {
+  color: var(--color-gray);
+}
+
+/* -----Responsive Design----- */
+
+
+@media screen and (max-width: 1750px){
+  .projects-container {
+    padding: 0rem 5rem;
+  }
+  .projects-img {
+    width: 50%;
+  }
+  .projects-container-data-title {
+    font-size: 30px;
+  }
+  
+  .projects-container-data-description {
+    font-size: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 850px){
+  .projects-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .projects-img {
+    width: 80%;
+  }
+  .projects-container {
+    padding: 0rem 5rem;
+  }
+  .projects-container-data-title {
+    font-size: 22px;
+  }
+  .projects-container-data-description {
+    font-size: 16px;
+  }
+  .projects-container {
+    padding: 0rem .25rem;
+  }
+  .projects-container-data-title {
+    font-size: 24px;
+  }
+  .projects-container-data-description {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  .projects {
+    padding: 0rem 1rem;
+  }
+  .projects-img {
+    width: 100%;
+  }
+  .projects-container {
+    padding: 0rem ;
+  }
+  .projects-container-data-title {
+    font-size: 20px;
+  }
+  .projects-container-data-description {
+    font-size: 14px;
+  }
+}

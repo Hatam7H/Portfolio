@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  background: var(--color-bg);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);    
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {  
+  width: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b8b8b8;
+  border-radius: 3rem;
+}
+
+::selection {
+  background: var(--color-hover);
+  color: var(--color-bg);
+}
+
+/* deafualt values */
+
+.section-button {  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: .25rem;
+  background-color: var(--color-hover);
+  cursor: pointer;
+  border: none;
+  border-radius: .75rem;
+  padding: 1rem 1.75rem;
+  margin-top: 1.5rem;
+  transition: .5s;
+  font-size: 15px;
+  font-weight: 600;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.section-button:hover {
+  background-color: var(--color-heading);
+}
+
+.section-button a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.section-title {
+  color: var(--color-text);
+  font-size: 44px;
+  font-weight: 700;
+  cursor: default;
+}
+
+.section-subtitle { 
+  color: var(--color-gray);
+  font-size: 14px;
+  cursor: default;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 350px){
+  .section-button {
+    font-size: 12px;
+  }
+}
