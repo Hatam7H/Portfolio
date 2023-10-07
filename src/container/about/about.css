@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: row;
   gap: 3rem;
-  margin: 2rem 0rem;
+  margin: 2rem 0;
 }
 
 .about-content-info-cv h3 {
@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 1050px) {
   .about {
-    padding: 0rem .5rem;
+    padding: 0 .5rem;
   }
   .about_content-info-paragraph {
     font-size: 14px;
@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 850px){
   .about {
-    padding: 0rem 2rem;
+    padding: 0 2rem;
   }
   .about_content {
     flex-direction: column;
@@ -102,7 +102,7 @@
 
 @media screen and (max-width: 400px){
   .about {
-    padding: 0rem .5rem;
+    padding: 0 .5rem;
   }
   .about_content-info-paragraph {
     font-size: 12px;

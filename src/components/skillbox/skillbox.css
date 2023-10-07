@@ -9,7 +9,7 @@
   align-items: center;
   font-size: 18px;  
   font-weight: 600;
-  margin: .75rem 0rem;
+  margin: .75rem 0;
 }
 
 .skills_title-svg {
@@ -21,7 +21,7 @@
   color: var(--color-gray);
   font-size: 14px;  
   font-weight: 300;
-  margin: 1rem 0rem;
+  margin: 1rem 0;
 }
 
 .skills_bar {

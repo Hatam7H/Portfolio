@@ -19,7 +19,7 @@ const Home = () => {
     <div id="Home" className='home'>
       <div className='home_picture'  data-aos="flip-up" data-aos-duration="2000">
         <div className='home_bg-picture'>
-          <img src={Portfolio}/>
+          <img src={Portfolio} alt="Profile-Picture"/>
         </div>
         <div className='home_icons'>
           <a href="https://github.com/Hatam7H"><BsGithub size={30}/></a>

@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20rem;
-  padding: 0rem 3rem;
+  padding: 0 3rem;
   gap: 5rem;
 }
 
@@ -15,7 +15,7 @@
   align-items: center;
   text-align: start;
   gap: 5rem;
-  padding: 0rem 10rem;
+  padding: 0 10rem;
 }
 
 .projects-img {
@@ -51,6 +51,10 @@
   gap: 1rem;
 }
 
+.skills_container-link {
+  cursor: pointer;
+}
+
 .svg {
   color: var(--color-text);
   font-size: 30px;
@@ -61,12 +65,18 @@
   color: var(--color-gray);
 }
 
+.projects-separate-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
 /* -----Responsive Design----- */
 
 
 @media screen and (max-width: 1750px){
   .projects-container {
-    padding: 0rem 5rem;
+    padding: 0 5rem;
   }
   .projects-img {
     width: 50%;
@@ -90,7 +100,7 @@
     width: 80%;
   }
   .projects-container {
-    padding: 0rem 5rem;
+    padding: 0 5rem;
   }
   .projects-container-data-title {
     font-size: 22px;
@@ -99,7 +109,7 @@
     font-size: 16px;
   }
   .projects-container {
-    padding: 0rem .25rem;
+    padding: 0 .25rem;
   }
   .projects-container-data-title {
     font-size: 24px;
@@ -112,13 +122,13 @@
 
 @media screen and (max-width: 400px){
   .projects {
-    padding: 0rem 1rem;
+    padding: 0 1rem;
   }
   .projects-img {
     width: 100%;
   }
   .projects-container {
-    padding: 0rem ;
+    padding: 0 ;
   }
   .projects-container-data-title {
     font-size: 20px;

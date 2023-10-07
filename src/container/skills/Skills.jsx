@@ -8,8 +8,8 @@ import './skills.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-// Icons imported from react icon
-import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoJquery, BiLogoPhp, BiLogoGit, BiLaptop } from 'react-icons/bi'
+// Icons imported from React icon
+import { BiLogoWordpress, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoJquery, BiLogoPhp, BiLogoGit, BiLaptop } from 'react-icons/bi'
 import {AiFillApi} from 'react-icons/ai'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { SiAdobeindesign, SiMysql } from 'react-icons/si'
@@ -40,7 +40,7 @@ const Skills = () => {
 
             <div className='skills-header-heading'>
               <h1>Frontend developer</h1>
-              <p>More than 2 years of exprience</p>
+              <p>More than 2 years of experience</p>
             </div>
             {toggleMenu
               ? <MdOutlineKeyboardArrowUp className='skills_icon' onClick={() => setToggleMenu(false)}/>
@@ -54,9 +54,9 @@ const Skills = () => {
               <Skillbox lan="JavaScript" svg={(<BiLogoJavascript color='#F0DB4F'/>)} per="60%" dataname="css"/>
               <Skillbox lan="React" svg={(<BiLogoReact color='#61DBFB'/>)} per="80%"/>
               <Skillbox lan="Tailwind" svg={(<BiLogoTailwindCss color='#38bdf8'/>)} per="30%"/>
-              <Skillbox lan="TypeScript" svg={(<BiLogoTypescript color='#007acc'/>)} per="0%"/>
-              <Skillbox lan="Jquery" svg={(<BiLogoJquery color='#0769ad'/>)} per="0%"/>
-              <Skillbox lan="Nextjs" svg={(<TbBrandNextjs color='#000'/>)} per="0%"/>
+              <Skillbox lan="TypeScript" svg={(<BiLogoTypescript color='#007acc'/>)} per="InProgress.."/>
+              <Skillbox lan="Jquery" svg={(<BiLogoJquery color='#0769ad'/>)} per="InProgress.."/>
+              <Skillbox lan="Nextjs" svg={(<TbBrandNextjs color='#000'/>)} per="InProgress.."/>
             </div>
           )
           }
@@ -78,9 +78,9 @@ const Skills = () => {
           </div>
           {toggleMenu2 && (
             <div>
-              <Skillbox lan="Php" svg={(<BiLogoPhp color='#484C89'/>)} per="0%"/>
-              <Skillbox lan="MySQL" svg={(<SiMysql color='#00758f'/>)} per="0%"/>              
-              <Skillbox lan="API" svg={(<AiFillApi color='#C4B454'/>)} per="0%"/>
+              <Skillbox lan="Php" svg={(<BiLogoPhp color='#484C89'/>)} per="40%"/>
+              <Skillbox lan="MySQL" svg={(<SiMysql color='#00758f'/>)} per="30%"/>              
+              <Skillbox lan="API" svg={(<AiFillApi color='#C4B454'/>)} per="70%"/>
             </div>
           )
           }
@@ -104,6 +104,7 @@ const Skills = () => {
             <div>
               <Skillbox lan="Git" svg={(<BiLogoGit color='#F1502F'/>)} per="70%"/>
               <Skillbox lan="Adobe InDesign" svg={(<SiAdobeindesign color='#FF3366'/>)} per="50%"/>
+              <Skillbox lan="WordPress" svg={(<BiLogoWordpress color='#0173aa'/>)} per="60%"/>
               <Skillbox lan="Responsive Design" svg={(<BiLaptop color='#333'/>)} per="90%"/>
             </div>
           )

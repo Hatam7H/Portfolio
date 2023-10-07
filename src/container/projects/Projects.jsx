@@ -23,7 +23,7 @@ const Projects = () => {
         <p className='section-subtitle'>Most recent work</p>
       </div>
       <div className='projects-container' data-aos="fade-down">
-        <img src={lotterybtc} className='projects-img'/>
+        <img src={lotterybtc} className='projects-img' alt='project1'/>
 
         <div className='projects-container-data'>
           <h3 className='projects-container-data-title'>Lottery bitcoin</h3>
@@ -38,12 +38,12 @@ const Projects = () => {
       {/* -----Other projects section */}
       {toggleMenu
         ? <></>
-        : <a className='skills_container-link' onClick={() => setToggleMenu(true)}><MdOutlineKeyboardArrowDown size={40}/></a>
+        : <h4 className='skills_container-link' onClick={() => setToggleMenu(true)}><MdOutlineKeyboardArrowDown size={40}/></h4>
       }
       {toggleMenu &&
-        <div>
+        <div className='projects-separate-container'>
           <div className='projects-container'  data-aos="fade-down">
-            <img src={instrument} className='projects-img'/>
+            <img src={instrument} className='projects-img' alt="Project2"/>
     
             <div className='projects-container-data'>
               <h3 className='projects-container-data-title'>Instrument</h3>
@@ -54,7 +54,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <a className='skills_container-link' onClick={() => setToggleMenu(false)}><MdOutlineKeyboardArrowUp size={40}/></a>
+          <h4 className='skills_container-link' onClick={() => setToggleMenu(false)}><MdOutlineKeyboardArrowUp size={40}/></h4>
         </div>
       }
     </div>

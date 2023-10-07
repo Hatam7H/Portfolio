@@ -4,8 +4,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 1rem 3rem;
-  margin: 0rem 3rem;
-  margin-bottom: 10rem;
+  margin: 0 3rem 10rem;
 
   border-bottom: 1px solid #d8d8d8;
 }
@@ -28,7 +27,7 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  margin: 0rem .75rem;
+  margin: 0 .75rem;
   cursor: pointer;
   transition: .5s;
 }
@@ -80,7 +79,7 @@
   justify-content: center;
   align-items: start;;
   gap: 2rem;
-  margin: 2rem 0rem;
+  margin: 2rem 0;
 }
 
 .navbar-section-links-sm a {
@@ -121,8 +120,7 @@
 @media screen and (max-width: 850px){
   .navbar {
     justify-content: space-between;
-    margin: 0rem 2rem;
-    margin-bottom: 5rem;
+    margin: 0 2rem 5rem;
   }
   .navbar_section-links {
     display: none;
