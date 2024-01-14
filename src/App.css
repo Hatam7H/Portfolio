@@ -18,13 +18,8 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #b8b8b8;
+  background-color: #6b6b6b;
   border-radius: 3rem;
-}
-
-::selection {
-  background: var(--color-hover);
-  color: var(--color-bg);
 }
 
 /* deafualt values */
@@ -34,7 +29,7 @@ body {
   justify-content: center;
   text-align: center;
   gap: .25rem;
-  background-color: var(--color-hover);
+  background-color: var(--color-main);
   cursor: pointer;
   border: none;
   border-radius: .75rem;
@@ -48,7 +43,7 @@ body {
 }
 
 .section-button:hover {
-  background-color: var(--color-heading);
+  background-color: var(--color-hover);
 }
 
 .section-button a {
@@ -57,14 +52,14 @@ body {
 }
 
 .section-title {
-  color: var(--color-text);
+  color: var(--color-headtext);
   font-size: 44px;
   font-weight: 700;
   cursor: default;
 }
 
 .section-subtitle { 
-  color: var(--color-gray);
+  color: var(--color-subtext);
   font-size: 14px;
   cursor: default;
 }

@@ -4,7 +4,7 @@
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
 }
 
 .home_picture {
@@ -21,22 +21,18 @@
 
 .home_bg-picture img {
   width: 100%;
-  border: solid .5rem var(--color-heading);
   border-radius: 50%;
   transition: .5s;
 }
 
-.home_bg-picture img:hover {
-  border: solid .5rem var(--color-hover);
-}
 
 .home_icons a {
-  color: var(--color-text);
+  color: var(--color-icons);
   margin: .5rem;
   transition: .5s;
 }
 .home_icons a:hover {
-  color: var(--color-gray);
+  color: var(--color-hover);
 }
 
 .home_info {
@@ -47,7 +43,7 @@
   align-items: center;
 }
 .home_info h1 {
-  color: var(--color-text);
+  color: var(--color-headtext);
   cursor: default;
   font-size: 50px;
   font-weight: 900;
@@ -56,12 +52,12 @@
   cursor: default;
   font-size: 24px;
   font-weight: 500;
-  color: var(--color-gray);
+  color: var(--color-subtext);
 }
 .home_info p {
   font-size: 18px;
   font-weight: 400;
-  color: var(--color-gray);
+  color: var(--color-subtext);
   margin-top: 1.5rem;
 }
 

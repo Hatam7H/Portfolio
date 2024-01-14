@@ -3,10 +3,14 @@
 /* color values */
 :root {
   --font-family: 'Manrope', sans-serif;  
-  --color-heading: #000000;    
-  --color-bg: #ffffff;   
-  --color-gray: #757575;
-  --color-text: #000000;
-  --color-hover: #616161;
-  --color-percentage: #22232c94;
+
+  --color-bg: #101014;  
+  --color-main: #446fff;    
+  --color-headtext: #fff; 
+  --color-subtext: #979797;
+  --color-icons: #ffffff;
+  --color-hover: #5c82ff;
+
+ 
+
 }

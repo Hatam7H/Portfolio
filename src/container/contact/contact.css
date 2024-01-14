@@ -35,7 +35,7 @@
 
 .contact_container-mail_port {
   width: 100%;
-  background: #8383835e;
+  background: #29283f5e;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -48,13 +48,13 @@
 .contact_container-mail_port  label {
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-text);
+  color: var(--color-headtext);
 }
 
 .contact_container-mail_port  input, textarea {
   width: 100%; 
   font-size: 14px; 
-  color: var(--color-gray);
+  color: var(--color-subtext);
   background: transparent;
   border: none;
   outline: none;  
@@ -70,7 +70,7 @@
 }
 
 .contact_container-info svg {
-  color: var(--color-heading);
+  color: var(--color-icons);
   font-size: 35px;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .contact_container-info-box:hover {
-  background: #8383835e;
+  background: #302f3a5e;
 }
 
 .contact_container-info-box-data {
@@ -93,12 +93,12 @@
 
 .contact_container-info-box-data h2 {
   font-size: 16px;
-  color: var(--color-text);
+  color: var(--color-headtext);
   cursor: default;
 }
 .contact_container-info-box-data p {
   font-size: 12px;
-  color: var(--color-gray);
+  color: var(--color-subtext);
 }
 
 /* -----Responsive Design----- */

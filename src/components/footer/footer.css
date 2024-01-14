@@ -1,11 +1,11 @@
 .footer {
-  background: var(--color-heading);
+  background: #29283f5e;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  color: var(--color-bg);
+  color: var(--color-headtext);
   gap: 8rem;
   padding: 1rem 2rem 10rem;
 }
@@ -34,14 +34,14 @@
 }
 
 .footer_container-link a {
-  color: var(--color-bg);
+  color: var(--color-headtext);
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
   transition: .5s;
 }
 .footer_container-link a:hover {
-  color: var(--color-gray);
+  color: var(--color-subtext);
 }
 
 .footer_container-plat {
@@ -55,13 +55,13 @@
 
 .footer_container-plat a {
   font-size: 30px;
-  color: var(--color-bg);
+  color: var(--color-icons);
   cursor: pointer;
   transition: .5s;
 }
 
 .footer_container-plat a:hover {
-  color: var(--color-gray);
+  color: var(--color-hover);
 }
 
 /* -----Responsive Design----- */

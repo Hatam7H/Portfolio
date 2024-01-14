@@ -38,7 +38,7 @@ const Projects = () => {
       {/* -----Other projects section */}
       {toggleMenu
         ? <></>
-        : <h4 className='skills_container-link' onClick={() => setToggleMenu(true)}><MdOutlineKeyboardArrowDown size={40}/></h4>
+        : <h4 className='skills_container-link' onClick={() => setToggleMenu(true)}><MdOutlineKeyboardArrowDown size={40} color='white'/></h4>
       }
       {toggleMenu &&
         <div className='projects-separate-container'>
@@ -49,12 +49,12 @@ const Projects = () => {
               <h3 className='projects-container-data-title'>Instrument</h3>
               <p className='projects-container-data-description'>Website adaptable to all devices,<br/> with animation and timer functionality</p>
               <div className='svg-container'>
-                <a className='svg' href="https://1lotterybitcoin.com/"><TbWorldWww/></a>
+                <a className='svg' href="http://instrument.hatamh.com/"><TbWorldWww/></a>
                 <a className='svg' href="https://github.com/Hatam7H/Instrument"><BsGithub/></a>
               </div>
             </div>
           </div>
-          <h4 className='skills_container-link' onClick={() => setToggleMenu(false)}><MdOutlineKeyboardArrowUp size={40}/></h4>
+          <h4 className='skills_container-link' onClick={() => setToggleMenu(false)}><MdOutlineKeyboardArrowUp size={40} color='white'/></h4>
         </div>
       }
     </div>

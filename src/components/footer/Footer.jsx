@@ -1,5 +1,6 @@
 import './footer.css'
-import { BiLogoLinkedin, BiLogoTwitter } from 'react-icons/bi'
+import { BiLogoLinkedin } from 'react-icons/bi'
+import { BsFillArrowUpCircleFill, BsGithub } from 'react-icons/bs'
  
 const Footer = () => {
   return (
@@ -14,8 +15,9 @@ const Footer = () => {
         <a href='#Home'>Home</a>
       </div>
       <div className='footer_container-plat'>
-        <a href="https://twitter.com/Hatam7H"><BiLogoTwitter/></a>
-        <a href=""><BiLogoLinkedin/></a>
+        <a href="https://github.com/Hatam7H"><BsGithub/></a>
+        <a href="https://www.linkedin.com/in/h7h/"><BiLogoLinkedin/></a>
+        <a href='#Nav'><BsFillArrowUpCircleFill/></a>
       </div>
     </div>
   )

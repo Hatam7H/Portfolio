@@ -10,6 +10,7 @@
   font-size: 18px;  
   font-weight: 600;
   margin: .75rem 0;
+  color: var(--color-headtext);
 }
 
 .skills_title-svg {
@@ -18,20 +19,20 @@
 }
 
 .skills_title-number {
-  color: var(--color-gray);
+  color: var(--color-subtext);
   font-size: 14px;  
   font-weight: 300;
   margin: 1rem 0;
 }
 
 .skills_bar {
-  background-color: var(--color-percentage);
+  background-color: var(--color-hover);
   height: 5px;
   border-radius: .25rem;
 }
 
 #skills_bar-percentage {  
-  background-color: var(--color-heading);  
+  background-color: #5050503b;  
   display: block;
   height: 5px; 
   border-radius: .25rem;

@@ -7,10 +7,9 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-    <div className='navbar'>
+    <div id='Nav' className='navbar'>
       <h1 className='navbar_logo'>HATAM</h1>
       <div className='navbar_section-links'>
-        <a href='#Home'>Home</a>
         <a href='#About'>About</a>
         <a href='#Skills'>Skills</a>
         <a href='#Projects'>Projects</a>
@@ -26,11 +25,10 @@ const Navbar = () => {
         {toggleMenu && (
           <div className='navbar-sm-hover scale-up-center'>
             <div className='navbar-section-links-sm'>
-              <a href='#Home' onClick={() => setToggleMenu(false)}>Home</a>
               <a href='#About' onClick={() => setToggleMenu(false)}>About</a>
               <a href='#Skills' onClick={() => setToggleMenu(false)}>Skills</a>
               <a href='#Projects' onClick={() => setToggleMenu(false)}>Projects</a>
-              <button><a href='#Contact' onClick={() => setToggleMenu(false)}>Contact</a></button>
+              <a href='#Contact' onClick={() => setToggleMenu(false)}>Contact</a>
             </div>
           </div>
         )}

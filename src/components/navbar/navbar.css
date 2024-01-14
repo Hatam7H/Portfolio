@@ -6,11 +6,11 @@
   padding: 1rem 3rem;
   margin: 0 3rem 10rem;
 
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 1px solid #29283f5e;
 }
 
 .navbar_logo {
-  color: var(--color-text);
+  color: var(--color-headtext);
   cursor: default;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .navbar_section-links a {
-  color: var(--color-text);
+  color: var(--color-headtext);
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
@@ -33,7 +33,7 @@
 }
 
 .navbar_section-links a:hover {
-  color: var(--color-gray);
+  color: var(--color-subtext);
 }
 
 /* -----Small Devices styling----- */
@@ -47,17 +47,17 @@
 }
 
 .navbar-sm svg {
-  color: var(--color-text);
+  color: var(--color-headtext);
   cursor: pointer;
   transition: .5s
 }
 
 .navbar-sm svg:hover {
-  color: var(--color-gray);
+  color: var(--color-subtext);
 }
 
 .navbar-sm-hover {  
-  background-color: #1f1f1f; 
+  background-color: #29283f5e; 
   opacity: 90%;
   display: flex;  
   flex-direction: column;
@@ -83,7 +83,7 @@
 }
 
 .navbar-section-links-sm a {
-  color: var(--color-bg);
+  color: var(--color-headtext);
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -92,7 +92,7 @@
 }
 
 .navbar-section-links-sm a:hover {
-  color: var(--color-hover);
+  color: var(--color-subtext);
 }
 
 .navbar-section-links-sm button {
@@ -107,12 +107,11 @@
 }
 
 .navbar-section-links-sm button:hover {
-    background: var(--color-heading);
-    color: var(--color-bg);
+  background-color: #1b1c20;
 }
 
 .navbar-section-links-sm button a {
-  color: var(--color-hover);
+  color: var(--color-headtext);
 }
 
 /* -----Responsive Design----- */
